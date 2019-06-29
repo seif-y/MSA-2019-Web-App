@@ -24,10 +24,10 @@
   }
   
   .dank {
-    display:flex;
-    justify-content:center;
+    display:inline-block;
     color: white;
     font-size: 20px;
+    height: 100px; 
   }
   
   .dropZoneText {

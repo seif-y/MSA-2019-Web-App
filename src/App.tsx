@@ -28,8 +28,8 @@ class App extends React.Component<{},IState>{
     return (
       <div>
         <Header />
-        <DropArea setResults={this.resultstate} />
         <Result result={this.state.result} filelength={this.state.filelength} />
+        <DropArea setResults={this.resultstate} />
       </div>
     );
   }
